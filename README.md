@@ -3,7 +3,6 @@ This project includes a backend API developed for a flight search application.
 
 ## Features
 * User registration and login with JWT authentication
-* Password encryption using BCrypt
 * Role-based authorization with Spring Security
 * Customized access denied handling
 * CRUD operations for flights and airports
