@@ -34,7 +34,7 @@ public class FlightDataFetchJob {
 
     private static final Logger LOG = LoggerFactory.getLogger(FlightDataFetchJob.class);
 
-    @Scheduled(cron = "0 */2 * * * *")
+    @Scheduled(cron = "1 0 0 * * *")
     public void fetchFlightData() {
         LOG.info("Fetching flight data");
 
