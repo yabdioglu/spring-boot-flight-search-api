@@ -6,8 +6,7 @@ This project includes a backend API developed for a flight search application.
 * Password encryption using BCrypt
 * Role-based authorization with Spring Security
 * Customized access denied handling
-* CRUD operations for flights
-* CRUD operations for airports
+* CRUD operations for flights and airports
 * Search flights by departure and destination airports
 * Fetch flights from the ERP system
 
