@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: flight-search
   datasource:
     url: jdbc:mysql://localhost:3306/flight_search
     username: root
@@ -13,3 +15,11 @@ spring:
         format_sql: true
     database: mysql
     database-platform: org.hibernate.dialect.MySQLDialect
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+flight:
+  api:
+    url: https://73065bec-b813-4d88-9841-d684812ac943.mock.pstmn.io/getFlights
